@@ -2,12 +2,11 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-pd.read_csv('/Users/alex/Desktop/DeepLearningPrerequisites/Git_Code&Dataset/machine_learning_examples/linear_regression_class/data_1d.csv')
 
 # Load the data with using pandas
 X = []
 Y = []
-for line in open('/Users/alex/Desktop/DeepLearningPrerequisites/Git_Code&Dataset/machine_learning_examples/linear_regression_class/data_1d.csv'):
+for line in open('data_1d.csv'):
     x, y = line.split(',')
     X.append(float(x))
     Y.append(float(y))
@@ -60,7 +59,7 @@ X = []
 Y = []
 non_decimal = re.compile(r'[^\d]+')
 
-for line in open('/Users/alex/Desktop/DeepLearningPrerequisites/Git_Code&Dataset/machine_learning_examples/linear_regression_class/moore.csv'):
+for line in open('moore.csv'):
     r = line.split('\t')
     x = int(non_decimal.sub('', r[2].split('[')[0]))
     y = int(non_decimal.sub('', r[1].split('[')[0]))
