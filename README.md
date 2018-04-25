@@ -1,6 +1,6 @@
 # Learning Linear Regression in Python but not using sklearn
 
-## Warning: Linear Algebra and Calculus are highly-needed for learning linear regression.
+### Warning: Linear Algebra and Calculus are highly-needed for learning linear regression.
 
 * In this repository, I'll try my best to avoid using sklearn in Python since my goal is to understand how the mathmatics work in linear regression.
 * But I'll use packages like Numpy, matplotlib, and sometimes pandas to help me skip several obstacles.
