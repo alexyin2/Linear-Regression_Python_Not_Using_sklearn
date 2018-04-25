@@ -8,7 +8,7 @@ import pandas as pd
 # Load the data
 X = []
 Y = []
-for line in open('/Users/alex/Desktop/DeepLearningPrerequisites/Git_Code&Dataset/machine_learning_examples/linear_regression_class/data_2d.csv'):
+for line in open('data_2d.csv'):
     x1, x2, y = line.split(',')
     X.append([float(x1), float(x2), 1])  # Adding 1 for b0
     Y.append(float(y))
@@ -41,7 +41,7 @@ print(r_square)
 # Load the data
 X = []
 Y = []
-for line in open('/Users/alex/Desktop/DeepLearningPrerequisites/Git_Code&Dataset/machine_learning_examples/linear_regression_class/data_poly.csv'):
+for line in open('data_poly.csv'):
     x, y = line.split(',')
     x = float(x)
     X.append([1, x, x*x])
@@ -71,7 +71,7 @@ print(r_square)
 
 
 # Exercise
-df = pd.read_excel('/Users/alex/Desktop/DeepLearningPrerequisites/Git_Code&Dataset/machine_learning_examples/linear_regression_class/mlr02.xls')
+df = pd.read_excel('mlr02.xls')
 X = df.as_matrix()
 plt.scatter(X[:, 1], X[:, 0])
 plt.show()
