@@ -2,11 +2,11 @@
 
 ### Warning: Linear Algebra and Calculus are highly-needed for learning linear regression.
 
-* In this repository, I'll try my best to avoid using sklearn in Python since my goal is to understand how the mathmatics work in linear regression.
-* But I'll use packages like Numpy, matplotlib, and sometimes pandas to help me skip several obstacles.
+* In this repository, I'll try my best to avoid using sklearn in Python since my goal is to understand how the mathematics work in linear regression.
+* But I'll use packages like Numpy, matplotlib, and sometimes Pandas to help me skip trivial obstacles.
 * I'll introduce how these packages help in learning regression model:
 1. **Numpy**: 
-   - We will have a large amount of time using Numpy, since the calculation in numpy.array is elementwise.
+   - We will have a large amount of time using Numpy, since the calculation in numpy.array is elementwise.
    - Besides, Numpy packages can help solve linear algebra questions really fast.
    - Following are some useful codes for calculating linear algebra by using Numpy:
 ```
