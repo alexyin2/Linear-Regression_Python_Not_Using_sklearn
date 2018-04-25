@@ -1,4 +1,4 @@
-# Learning Linear Regression in Python but not using sklearn
+# Learning Linear Regression in Python but Not Using sklearn
 
 ### Warning: Linear Algebra and Calculus are highly-needed for learning linear regression.
 
