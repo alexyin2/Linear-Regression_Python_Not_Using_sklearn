@@ -17,8 +17,8 @@ np.inner()
 ```
 
 2. **Pandas**: 
-- Pandas can help importing data and do some summary statistics
+   - Pandas can help importing data and do some summary statistics
 
 3. **matplotlib.pyplot**: 
-- Helps for data visualization
+   - Helps for data visualization
 
