@@ -22,3 +22,4 @@ np.inner()
 3. **matplotlib.pyplot**: 
    - Helps for data visualization
 
+* This practice is based on [LazyProgrammer.me](https://github.com/lazyprogrammer)
