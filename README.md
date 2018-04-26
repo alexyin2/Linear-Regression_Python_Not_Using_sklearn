@@ -7,8 +7,8 @@
 * I'll introduce how these packages help in learning regression model:
 1. **Numpy**: 
    - Numpy packages can help solve linear algebra questions really fast.
-   - In np.array, calculations are element wise, and this is very useful in doing mathematics.
-   - Following are some useful codes for calculating linear algebra by using Numpy:
+   - In np.array, calculations are element wise, and this is very useful in doing mathematics.
+   - Following are some useful codes for calculating linear algebra by using Numpy:
 ```
 np.linalg.inv()
 np.diag()
