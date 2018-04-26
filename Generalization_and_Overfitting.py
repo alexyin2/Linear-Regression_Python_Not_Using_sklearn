@@ -40,6 +40,13 @@ def fit_and_display(X, Y, sample, deg):
     w = fit(Xtrain_poly, Ytrain)
 
     # display the polynomial
+    """
+    Notice that the data fitting the polynomial regression model may
+    effect the axis range tremendously.
+    
+    This is because the line of polynomial regression may moving upside down a 
+    lot, especially when our degree is high.
+    """
     X_poly = make_poly(X, deg)
     Y_hat = X_poly.dot(w)
     plt.plot(X, Y)
