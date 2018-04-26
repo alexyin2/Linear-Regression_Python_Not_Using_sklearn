@@ -10,9 +10,13 @@
    - In np.array, calculations are element wise, and this is very useful in doing mathematics.
    - Following are some useful codes for calculating linear algebra by using Numpy:
 ```
+# Inverse Matrix
 np.linalg.inv()
+# Extract a diagonal or construct a diagonal array.
 np.diag()
+# Calculate the outer product.
 np.outer()
+# Calculate the inner product.
 np.inner()
 ```
 
