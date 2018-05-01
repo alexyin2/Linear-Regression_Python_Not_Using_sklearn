@@ -33,62 +33,14 @@ plt.show()
 
 # 2. L2 Regularization
 l2 = 1000.0
-w_map = np.linalg.solve(l2 * np.eye(2) + X.T.dot(X), X.T.dot(Y))
+w_map = np.linalg.solve(l2 * np.eye(2) + X.T.dot(X), X.T.dot(Y))  # Here, np.eye(2) we use 2 is because we only have two parameters that needs to be calculated
+# We can also write: w_map = np.linalg.inv(l2 * np.eye(2) + X.T.dot(X)).dot(X.T.dot(Y))
 Yhat_map = X.dot(w_map)
 # Plot the scatter plot with the comparison of two different methods.
-# We can notice that L2 Regularization are less effected by outliers.
+# We can notice that L2 Regularization are less effected by outliers.l
 plt.scatter(X[:, 1], Y)
 plt.plot(X[:, 1], Yhat_ml, label='maximum likelihood')
 plt.plot(X[:, 1], Yhat_map, label='map')
 plt.legend()
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
