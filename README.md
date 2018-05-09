@@ -56,10 +56,13 @@ Feel free to rewrite them if I'm wrong!!
    
    **Computational Speed**: 
    
-      In machine learning, we often have really large data and high dimensions of variables. As a result, calculating the inverse matrix of X may cause a lot of time when using Gradient Descent may be more efficient.
+      In machine learning, we often have really large data and high dimensions of variables. 
+      
+      As a result, calculating the inverse matrix of X may cause a lot of time when using Gradient Descent may be more efficient.
       
    **Mathematic Problems**: 
       
       In some cases, OLS doesn't work. For example, when running L1 Regularization, also known as LASSO Regression, we can't use OLS to get our solution. So using Gradient Descent may be more safe to apply on different situations.
-      In machine learning, we often have really large data and high dimensions of variables. As a result, calculating the inverse matrix of X may cause a lot of time when using Gradient Descent may be more efficient. 
+      
+      Besides, when using OLS, there is a restriction that N > n. Here N means the number of samples, and n means the number of variables. But in Gradient Descent, there is no such restriction.
 
