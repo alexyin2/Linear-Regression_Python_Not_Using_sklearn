@@ -32,14 +32,15 @@ np.inner()
 * This practice is based on [LazyProgrammer.me](https://github.com/lazyprogrammer)
 
 
-### New Question: Least Square Vs Gradient Descent
+***
+## New Question: Least Square Vs Gradient Descent
 After I've tried to code the algorithms by myself, Several questions popped up in my mind.
 
 This is the answer that I've finally got from searching and reading.
 
 Feel free to rewrite them if I'm wrong!!
 
-1. What's the difference between using Least Square and using Gradient Descent?
+### 1. What's the difference between using Least Square and using Gradient Descent?
 
    **_Ans_:**
    
@@ -47,7 +48,7 @@ Feel free to rewrite them if I'm wrong!!
    
    In using Gradient Descent, we don't need to calculate the inverse of X matrix, and we also don't need to worry about the problem of dummy varialbe trap. But we'll have to decide our learning rate, which may effect the speed of finding the solutions.
 
-2. So perhaps in using R or Python, the packages all use Gradient Descent when calculating linear regression?
+### 2. When using R or Python, the packages use Gradient Descent instead of OLS?
    
    **_Ans_:**
    
@@ -61,4 +62,4 @@ Feel free to rewrite them if I'm wrong!!
       
       In some cases, OLS doesn't work. For example, when running L1 Regularization, also known as LASSO Regression, we can't use OLS to get our solution. So using Gradient Descent may be more safe to apply on different situations.
       In machine learning, we often have really large data and high dimensions of variables. As a result, calculating the inverse matrix of X may cause a lot of time when using Gradient Descent may be more efficient. 
-      In machine learning, we often have really large data and high dimensions of variables. As a result, calculating the inverse matrix of X may cause a lot of time when using Gradient Descent may be more efficient.
+
