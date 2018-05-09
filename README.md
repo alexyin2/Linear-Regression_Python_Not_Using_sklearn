@@ -31,11 +31,34 @@ np.inner()
 2. Maximum Likelihood
 * This practice is based on [LazyProgrammer.me](https://github.com/lazyprogrammer)
 
+
 ### New Question: Least Square Vs Gradient Descent
-After I've tried to code the algorithms by myself, a question popped up in my mind. 
+After I've tried to code the algorithms by myself, Several questions popped up in my mind.
 
-What's the difference between using Least Square and using Gradient Descent?
+This is the answer that I've finally got from searching and reading.
 
-We know that if using Least square, there should be an inverse of X matrix, which implies that each variables should not be a linear combination of other variables.
+Feel free to rewrite them if I'm wrong!!
 
-So perhaps in using R or Python, the packages all use Gradient Descent?
+1. What's the difference between using Least Square and using Gradient Descent?
+
+   **_Ans_:**
+   
+   We know that if using Least square, there should be an inverse of X matrix, which implies that each variables should not be a linear combination of other variables. Besides, we need to avoid the dummy variable trap, since it will cause the problem of calculating X inverse matrix.
+   
+   In using Gradient Descent, we don't need to calculate the inverse of X matrix, and we also don't need to worry about the problem of dummy varialbe trap. But we'll have to decide our learning rate, which may effect the speed of finding the solutions.
+
+2. So perhaps in using R or Python, the packages all use Gradient Descent when calculating linear regression?
+   
+   **_Ans_:**
+   
+   The answer is YES. There are several reasons why we often use Gradient Descent in machine learning but we seldom use OLS.
+   
+   **Computational Speed**: 
+   
+      In machine learning, we often have really large data and high dimensions of variables. As a result, calculating the inverse matrix of X may cause a lot of time when using Gradient Descent may be more efficient.
+      
+   **Mathematic Problems**: 
+      
+      In some cases, OLS doesn't work. For example, when running L1 Regularization, also known as LASSO Regression, we can't use OLS to get our solution. So using Gradient Descent may be more safe to apply on different situations.
+      In machine learning, we often have really large data and high dimensions of variables. As a result, calculating the inverse matrix of X may cause a lot of time when using Gradient Descent may be more efficient. 
+      In machine learning, we often have really large data and high dimensions of variables. As a result, calculating the inverse matrix of X may cause a lot of time when using Gradient Descent may be more efficient.
