@@ -54,10 +54,9 @@ Feel free to rewrite them if I'm wrong!!
    
    The answer is YES. There are several reasons why we often use Gradient Descent in machine learning but we seldom use OLS.
    
-   **Computational Speed**: 
+   **Computational Speed**:
    
       In machine learning, we often have really large data and high dimensions of variables. 
-      
       As a result, calculating the inverse matrix of X may cause a lot of time when using Gradient Descent may be more efficient.
       
    **Mathematic Problems**: 
