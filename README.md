@@ -30,3 +30,12 @@ np.inner()
 1. Least Square Error
 2. Maximum Likelihood
 * This practice is based on [LazyProgrammer.me](https://github.com/lazyprogrammer)
+
+### New Question: Least Square Vs Gradient Descent
+After I've tried to code the algorithms by myself, a question popped up in my mind. 
+
+What's the difference between using Least Square and using Gradient Descent
+
+We know that if using Least square, there should be an inverse of X matrix, which implies that each variables should not be a linear combination of other variables.
+
+So perhaps in using R or Python, the packages all use Gradient Descent?
