@@ -1,13 +1,20 @@
 # L1 Regression
 # L1 Regression is also knowned as LASSO Regression
+
 """
 In my opinion, I think L1 Regression are often used when we have too many variables, 
 and we may only want to pick some of the variables.
 
-It generates weights, in which the unimportant variables have small weights and 
-we may probably pick those variables with larger weights.
+The goal of L1 Regularization is to select a small number of important features that predict the trend.
 
-Warning: this is just my thoughts on L1 Regression, and it may not be correct.
+We add absolution of weights(parameters) times lambda, which is a constant into the model.
+
+In the generated weights(parameters), some variables may have small values and 
+we may pick those variables out.
+
+Warning: The variables with some values doesn't mean that it's not important, but we can say it has less contribution to our model.
+
+It is also pretty important that we can't solve LASSO Regression by OLS, and we'll have to use Gradient Descent to find our solution.
 """
 import numpy as np
 import matplotlib.pyplot as plt
