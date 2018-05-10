@@ -26,9 +26,10 @@ np.inner()
 3. **matplotlib.pyplot**: 
    - Helps for data visualization
 
-* There are some necessary mathematicals we would have to know:
-1. Least Square Error
-2. Maximum Likelihood
+* There are some necessary mathematicals or algorithms we would have to know:
+1. Least Square Error  
+2. Maximum Likelihood  
+3. Gradient Descent  
 * This practice is based on [LazyProgrammer.me](https://github.com/lazyprogrammer)
 
 
