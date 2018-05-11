@@ -41,11 +41,12 @@ np.inner()
 
 ### 1. What's the difference between using Least Square and using Gradient Descent?
 
-   **_Ans_:**
-   We know that if using Least square, there should be an inverse of X matrix, which implies that each variables should not be a linear combination of other variables.  
+   **_Ans_:**  
+   We know that if using Least square, there should be an inverse of X matrix, which implies that each variables should not be a linear combination of other variables.  
    Besides, we need to avoid the dummy variable trap, since it will cause the problem of calculating X inverse matrix.  
    
-   In using Gradient Descent, we don't need to calculate the inverse of X matrix, and we also don't need to worry about the problem of dummy varialbe trap. But we'll have to decide our learning rate, which may effect the speed of finding the solutions.  
+   In using Gradient Descent, we don't need to calculate the inverse of X matrix, and we also don't need to worry about the problem of dummy varialbe trap.
+   But we'll have to decide our learning rate, which may effect the speed of finding the solutions.   
 
 ### 2. When using R or Python, the packages use Gradient Descent instead of OLS?
    
